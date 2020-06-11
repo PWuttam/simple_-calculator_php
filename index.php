@@ -43,7 +43,7 @@
 
     <p>下の枠に数字を入れてみてね！</p>
 
-    <form action="calculator.php" method="post">
+    <form action="index.php" method="post">
       <div class="main_point">
         <input type="text" name="number1" value="<?php echo htmlspecialchars($number1); ?>"> +
         <input type="text" name="number2" value="<?php echo htmlspecialchars($number2); ?>"> =
